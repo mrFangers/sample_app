@@ -6833,3 +6833,7 @@ footer ul li {
     text-decoration: none;
   }
 }
+
+ul.divination {
+list-style-image: url("/images/divination.jpg");
+}
