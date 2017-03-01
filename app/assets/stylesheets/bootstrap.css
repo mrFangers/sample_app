@@ -1104,7 +1104,7 @@ textarea {
   line-height: inherit;
 }
 a {
-  color: #337ab7;
+  color: #f2c462;
   text-decoration: none;
 }
 a:hover,
@@ -1271,14 +1271,17 @@ h6 .small,
 }
 h1,
 .h1 {
+  font-family: optimus;
   font-size: 36px;
 }
 h2,
 .h2 {
+  font-family: optimus;
   font-size: 30px;
 }
 h3,
 .h3 {
+  font-family: optimus;
   font-size: 24px;
 }
 h4,
@@ -1294,6 +1297,8 @@ h6,
   font-size: 12px;
 }
 p {
+  font-family: nyala;
+  font-size: 17px;
   margin: 0 0 10px;
 }
 .lead {
@@ -4270,6 +4275,8 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   }
 }
 .navbar-fixed-top {
+  font-family: fontin-smallcaps;
+  font-size: 16px;
   top: 0;
   border-width: 0 0 1px;
 }
@@ -5667,6 +5674,8 @@ button.list-group-item-danger.active:focus {
   margin-bottom: 0;
 }
 .panel-group {
+  font-family: optimus;
+  font-size: 20px;
   margin-bottom: 20px;
 }
 .panel-group .panel {
@@ -6488,8 +6497,6 @@ button.close {
 .navbar-collapse:after,
 .pager:before,
 .pager:after,
-.panel-body:before,
-.panel-body:after,
 .modal-header:before,
 .modal-header:after,
 .modal-footer:before,
@@ -6510,7 +6517,6 @@ button.close {
 .navbar-header:after,
 .navbar-collapse:after,
 .pager:after,
-.panel-body:after,
 .modal-header:after,
 .modal-footer:after {
   clear: both;
@@ -6835,5 +6841,20 @@ footer ul li {
 }
 
 ul.divination {
-list-style-image: url("/images/divination.jpg");
-}
+  list-style-image: url("/images/divination.jpg");
+  font-family: nyala;
+  font-size: 17px;
+  }
+
+@font-face {
+    font-family: nyala; /* Гарнитура шрифта */
+    src: url(/fonts/nyala.ttf); /* Путь к файлу со шрифтом */
+   }
+@font-face {
+    font-family: optimus; /* Гарнитура шрифта */
+    src: url(/fonts/OptimusPrincepsSemiBold.ttf); /* Путь к файлу со шрифтом */
+   }
+@font-face {
+    font-family: fontin-smallcaps; /* Гарнитура шрифта */
+    src: url(/fonts/Fontin-SmallCaps.ttf); /* Путь к файлу со шрифтом */
+   }
