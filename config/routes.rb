@@ -9,7 +9,7 @@ SampleApp::Application.routes.draw do
   match '/odnoruchnyj-topor', to: 'static_pages#one_hand_axe', via: 'get'
   match '/kogti', to: 'static_pages#kogti', via: 'get'
   match '/odnoruchnyj-kinzhal', to: 'static_pages#kinzhal', via: 'get'
-  match '/odnoruchnaya-bulava', to: 'static_pages#onehandmace', via: 'get'
+  match '/odnoruchnaya-bulava', to: 'static_pages#1h-mace', via: 'get'
   match '/skipetr', to: 'static_pages#skipetr', via: 'get'
   match '/odnoruchnyj-mech', to: 'static_pages#one_hand_sword', via: 'get'
   match '/zhezl', to: 'static_pages#zhezl', via: 'get'
