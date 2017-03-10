@@ -6,7 +6,17 @@ module ApplicationHelper
     if page_title.empty?                              # Булевый тест
       base_title                                      # Явное возвращение
     else
-      "#{base_title} | #{page_title}"                 # Интерполяция строки
+      "#{page_title} | #{base_title}"                 # Интерполяция строки
+    end
+  end
+
+  # Попытки создать хэлпер 
+  def full_meta_description(page_description)
+    base_description = "Помощь в крафте предметов в игре Path of Exile - Список Префиксов и Суффиксов на все предметы"
+    if page_description.empty?
+      base_description
+    else
+      "#{page_description}"
     end
   end
 end
