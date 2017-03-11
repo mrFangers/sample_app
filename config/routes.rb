@@ -13,4 +13,10 @@ SampleApp::Application.routes.draw do
   match '/skipetr', to: 'static_pages#skipetr', via: 'get'
   match '/odnoruchnyj-mech', to: 'static_pages#one_hand_sword', via: 'get'
   match '/zhezl', to: 'static_pages#zhezl', via: 'get'
+  match '/dvuruchnyj-topor', to: 'static_pages#two_hand_axe', via: 'get'
+  match '/luk', to: 'static_pages#bow', via: 'get'
+  match '/dvuruchnaya-bulava', to: 'static_pages#two_hand_mace', via: 'get'
+  match '/posoh', to: 'static_pages#staff', via: 'get'
+  match '/dvuruchnyj-mech', to: 'static_pages#two_hand_sword', via: 'get'
+  match '/udochka', to: 'static_pages#fishing_rod', via: 'get'
 end
