@@ -32,4 +32,10 @@ SampleApp::Application.routes.draw do
   match '/shlem/bronya-ehnergeticheskij-shchit', to: 'static_pages#helmet_armour_es', via: 'get'
   match '/shlem/bronya-uklonenie', to: 'static_pages#helmet_armour_ev', via: 'get'
   match '/shlem/ehnergeticheskij-shchit-uklonenie', to: 'static_pages#helmet_ev_es', via: 'get'
+  match '/perchatki/bronya', to: 'static_pages#gloves_armour', via: 'get'
+  match '/perchatki/uklonenie', to: 'static_pages#gloves_evasion', via: 'get'
+  match '/perchatki/ehnergeticheskij-shchit', to: 'static_pages#gloves_es', via: 'get'
+  match '/perchatki/bronya-uklonenie', to: 'static_pages#gloves_armour_ev', via: 'get'
+  match '/perchatki/bronya-ehnergeticheskij-shchit', to: 'static_pages#gloves_armour_es', via: 'get'
+  match '/perchatki/ehnergeticheskij-shchit-uklonenie', to: 'static_pages#gloves_ev_es', via: 'get'
 end
